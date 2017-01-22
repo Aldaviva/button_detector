@@ -1,9 +1,9 @@
 {
     "name": "button_detector",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "dependencies": {
-	"onoff": "1.0.4",
-	"lodash": "4.11.1",
+	"rpio": "0.9.14",
+	"lodash": "3.10.1",
 	"request": "2.72.0"
     }
 }
