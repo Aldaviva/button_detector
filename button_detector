@@ -52,7 +52,7 @@ DESC="button_detector"                          # whatever fancy description you
 DAEMON_ARGS="/opt/button_detector/index.js"     # path to your node.js server/app
                                             # NB: don't use ~/ in path
 
-NAME=node                                   # name of the node.js executable
+NAME=forever                                # name of the node.js executable
 DAEMON=/usr/bin/$NAME                       # this SHOULD POINT TO where your node executable is
 
 NODEUSER=nobody:nogroup                     # USER who OWNS the daemon process (no matter whoever runs the init script)
